@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 572326 */
+    src: url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.eot');
+    src: url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.svg#iconfont') format('svg');
+}
+
+#head{
+    width: 100%;
+    height: 1.42rem;
+    padding: .26rem;
+    background-color: #fff;
+    /*position: fixed;*/
+    /*left:0;*/
+    /*top: 0;*/
+    /*z-index:999;*/
+}
+.head_left{
+    float: left;
+    font-size: .6rem;
+    color: #B1B1B1;
+    font-family: 'iconfont';
+    margin-left: .26rem;
+    line-height: .9rem;
+}
+.head_right{
+    float: right;
+    font-size: .6rem;
+    color: #B1B1B1;
+    font-family: 'iconfont';
+    margin-right: .26rem;
+    line-height: .9rem;
+}
+.head_sousuo{
+    /* 	width: 7.8rem;
+        height: .9rem;
+        background-color: #F5F5F5; */
+}
+.head_sousuo input{
+    font-family: 'iconfont';
+    border: 0;
+    background-color: #f5f5f5;
+    color: #B1B1B1;
+    font-size: .38rem;
+    line-height: .9rem;
+    text-align: center;
+    border-radius: .6rem;
+    width: 7.8rem;
+    height: .9rem;
+    margin-left: .37rem;
+    float: left;
+}
+.neirong_zhanshi{
+    width: 100%;
+    height: 3.39rem;
+    float: left;
+    margin-top: 1.32rem;
+    margin-bottom: .6rem;
+}
+.neirong_zhanshi img{
+    width: 100%;
+    height: 3.39rem;
+}
+.shangxin{
+    width: 100%;
+    margin-right: .07rem;
+    /*background-color: red;*/
+}
+.timuimg{
+    width: 2.92rem;
+    height: 1.5rem;
+    margin: 0 auto;
+}
+.shangxin_ls{
+    margin-bottom: .07rem;
+}
+.shangxin_lst{
+    width: 5.36rem;
+    height: 4.46rem;
+}
+.shangxin_lxt{
+    width: 5.37rem;
+    height: 2.2rem;
+}
+.shangxin_r{
+    float: right;
+}
+.shangxin_l{
+    float: left;
+}
+.shangxin_rs{
+    margin-bottom: .07rem;
+}
+.shangxin_rst{
+    width: 5.37rem;
+    height: 2.2rem;
+}
+.timuimg1{
+    margin-left: 3.66rem;
+    width: 2.92rem;
+    height: 1.5rem;
+    /*margin: 0 auto;*/
+}
+.haitao_product{
+    width: 100%;
+    /* height: 200rem; */
+    /* background-color: blue; */
+    border-top: 0.02rem solid #eee;
+    border-bottom: 0.02rem solid #eee;
+    overflow: hidden;
+    margin-top: .6rem;
+    float: left;
+}
+.haitao_product1{
+    float: left;
+    width: 5.41rem;
+    height: 7.08rem;
+    /* background-color: plum; */
+    border-right:0.02rem solid #eee;
+    border-bottom: 0.02rem solid #eee;
+}
+.haitao_product2{
+    float: left;
+    width: 5.39rem;
+    height: 7.08rem;
+    /* background-color: pink; */
+    border-bottom: 0.02rem solid #eee;
+}
+.haitao_product1_img{
+    width: 5rem;
+    height: 5rem;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.h1{
+    width: 5rem;
+    height: 5rem;
+    margin-top: .08rem;
+    border-radius: .16rem;
+    box-shadow: 0 0 .2rem .002rem rgba(250, 230, 218, 0.97);
+}
+.haitao_product1_desc{
+    margin-left: .22rem;
+    width: 4.92rem;
+    /* background-color: darkgreen; */
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: .34rem;
+    font-size: .32rem;
+}
+.haitao_product1_price{
+    margin-left: .22rem;
+    font-family:Helvetica;
+    font-size: .27rem;
+    color: #fe3f72;
+    margin-top: .25rem;
+}
+.yuan{
+    font-family: iconfont;
+    font-weight: bolder;
+}
+/* 脚步开始 */
+.foot{
+    width: 100%;
+    height: 1.78rem;
+    background: #fff;
+    border-top: .01rem solid #EBEBEB;
+    /* padding-top: .32rem; */
+    padding: 0 2%;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+.zongxiang_itme{
+    width: 10%;
+    padding-bottom: .06rem;
+    margin: .26rem 5% 0 5%;
+    float: left;
+}
+.itme_t{
+    font-family: 'iconfont';
+    color: #fe3f72;
+    text-align: center;
+}
+.itme_t span{
+    font-size: .86rem;
+}
+.itme_b{
+    color: #fe3f72;
+    font-size: .28rem;
+    line-height: .4rem;
+    text-align: center;
+}
+.zongxiang_itme1 span{
+    color: #9a9a9a;
+}
+.zongxiang_itme_logo{
+    width: 1.22rem;
+    margin-right: .34rem;
+    margin-left: .34rem;
+}
+/* .zongxiang_itme_logo img{
+	width: 1rem;
+	height: 100%;
+	margin-left: -5%;
+	margin-right: -5%;
+} */
+/* 脚部结束 */

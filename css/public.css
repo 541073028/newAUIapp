@@ -1,0 +1,18 @@
+*{
+	margin: 0;  /* body-8px */
+	padding: 0;   /* 标题 */
+	text-decoration: none;  /* a标签下划线  文本标签*/
+	font-style: normal;   /* 字体斜体 */
+	list-style: none;      /* 列表样式 */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);      
+	/* 清除选中时高亮的颜色 ，注意：颜色随便设，只要是透明的就可以
+	另外注意兼容性*/
+	box-sizing: border-box;      
+	/* 边框区域,使浏览器解析时，将边框的设值也计算在宽和高之内，不用另外计算减去宽高中边框所占区域 */
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}

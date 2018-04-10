@@ -1,0 +1,355 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 572326 */
+  src: url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.eot');
+  src: url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_572326_umikv8mdshujif6r.svg#iconfont') format('svg');
+}
+#head{
+	width: 100%;
+	height: 1.42rem;
+	padding: .26rem;
+	background-color: #fff;
+	position: fixed;
+	left:0;
+	top: 0;
+	z-index:999;
+}
+.head_left{
+	float: left;
+	font-size: .6rem;
+	color: #B1B1B1;
+	font-family: 'iconfont';
+	margin-left: .26rem;
+	line-height: .9rem;
+}
+.head_right{
+	float: right;
+	font-size: .6rem;
+	color: #B1B1B1;
+	font-family: 'iconfont';
+	margin-right: .26rem;
+	line-height: .9rem;
+}
+.head_sousuo{
+/* 	width: 7.8rem;
+	height: .9rem;
+	background-color: #F5F5F5; */
+}
+.head_sousuo input{
+	font-family: 'iconfont';
+	border: 0;
+	background-color: #f5f5f5;
+	color: #B1B1B1;
+	font-size: .38rem;
+	line-height: .9rem;
+	text-align: center;
+	border-radius: .6rem;
+	width: 7.8rem;
+	height: .9rem;
+	margin-left: .37rem;
+	float: left;
+}
+
+/* 内容开始 */
+.neirong{
+	width: 100%;
+	/*height: auto;*/
+	position: absolute;
+	top: 2.6rem;
+	left: 0;
+	bottom: 1.78rem;
+}
+.neirong_daohang{
+	width: 100%;
+	height: 1.18rem;
+	 background-color: #fff;
+	padding: 0 0.32rem;
+	position: fixed;
+	left:0;
+	top: 1.42rem;
+}
+.neirong_daohang1{
+	float: left;
+}
+.neirong_daohang1 .neirong_daohang2{
+	color: #FD4171;
+}
+.neirong_daohang2_xuanzhong{
+	height: .06rem;
+	background-color: #FD4171;
+}
+.neirong_daohang a{
+	color: #656565;
+	font-size: .38rem;
+	margin: 0 .261rem;
+	float: left;
+	line-height: 1.18rem;
+	/* text-align: center; */
+}
+
+.neirong_zhanshi img{
+	width: 100%;
+	height: 3.39rem;
+}
+.neirong_item{
+	width: 1.8rem;
+	/* background-color: red; */
+}
+.neirong_fenlei{
+	width: 100%;
+	height: 2.64rem;
+	padding: .29rem .2rem;
+/* 	background-color: yellowgreen; */
+}
+.neirong_item{
+	margin: 0 .4rem;
+	float: left;
+}
+.neirong_item img{
+	width: 1.8rem;
+	height: 1.72rem;
+}
+.neirong_item b{
+	font-size: .28rem;
+	color: #000;
+	text-align: center;
+	display: block;
+	margin-top: .06rem;
+}
+.neirong_tehui{
+	width: 100%;
+	height: 13.4rem;
+	margin-top: .4rem;
+	/* background-color: red; */
+	padding: 0 .4rem;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+.neirong_tehui_head{
+	height: .4rem;
+}
+.neirong_tehui_head b{
+	color: #000;
+	font-size: .4rem;
+	line-height: 1.18rem;
+	text-align: center;
+	display: block;
+}
+.neirong_tehui_left{
+	float: left;
+}
+.neirong_tehui_left img{
+	width: 4.07rem;
+	height: 5.4rem;
+
+	margin: .88rem 0 0 0rem;
+}
+.neirong_tehui_right{
+	/* background-color: yellow; */
+	width: 5.46rem;
+	float: right;
+	height: 6.7rem;
+	/* margin-top: .88rem; */
+	padding: 1.74rem 0;
+}
+.row1,.row2,.row3,.row4{
+	float: left;
+}
+.row1_l{
+	border: .016rem solid #D88599;
+	box-shadow: 0 0 .0006rem .0006rem #D74A73;
+	/* border-radius: .01rem; */
+	color: #D74A73;
+	font-size: .32rem;
+	line-height: .32rem;
+	text-align: center;
+	height: .62rem;
+	float: left;
+	margin-right: .14rem;
+	padding: .14rem .09rem;
+}
+.row2{
+	border-bottom: .03rem solid #EC4E70;
+	color: #545454;
+	font-size: .42rem;
+	height: .92rem;
+	width: 100%;
+	line-height: .92rem;
+	float: left;
+}
+.row3{
+	height: .9rem;
+	color: #878787;
+	font-size: .32rem;
+	line-height: .9rem;
+}
+.row4{
+	height: 1.08rem;
+	color: #E63E65;
+	font-size: .36rem;
+	line-height: 1.08rem;
+}
+.row4 b{
+	font-size: .46rem;
+}
+.row4 em{
+	color: #747474;
+	text-decoration:line-through;
+}
+.haitao_product{
+	width: 100%;
+	/* height: 200rem; */
+	/* background-color: blue; */
+	border-top: 0.02rem solid #eee;
+	border-bottom: 0.02rem solid #eee;
+	overflow: hidden;
+}
+.haitao_product1{
+	float: left;
+	width: 5.41rem;
+	height: 7.08rem;
+	/* background-color: plum; */
+	border-right:0.02rem solid #eee;
+	border-bottom: 0.02rem solid #eee;
+}
+.haitao_product2{
+	float: left;
+	width: 5.39rem;
+	height: 7.08rem;
+	/* background-color: pink; */
+	border-bottom: 0.02rem solid #eee;
+}
+.haitao_product1_img{
+	width: 5rem;
+	height: 5rem;
+	/* background-color: red; */
+	margin: 0 auto;
+}
+.h1{
+	width: 5rem;
+	height: 5rem;
+    margin-top: .08rem;
+    border-radius: .16rem;
+    box-shadow: 0 0 .2rem .002rem rgba(250, 230, 218, 0.97);
+}
+.haitao_product1_desc{
+	margin-left: .22rem;
+	width: 4.92rem;
+	/* background-color: darkgreen; */
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: .34rem;
+	font-size: .32rem;
+}
+.haitao_product1_price{
+	margin-left: .22rem;
+	font-family:Helvetica;
+	font-size: .27rem;
+	color: #fe3f72;
+	margin-top: .25rem;
+}
+.yuan{
+	font-family: iconfont;
+	font-weight: bolder;
+}
+/* .neirong_tehui_left .neirong_tehui_left_img{
+	margin-top: 0;
+}
+.neirong_tehui_right .neirong_tehui_right1{
+	height: 5.83rem;
+} */
+/* 要在文字中间实现有一条横线的效果可以使用CSS中CSS text-decoration 属性就可以达到效果。
+
+CSS text-decoration 属性相关介绍及事例：
+
+浏览器支持：所有主流浏览器都支持 text-decoration 属性。
+
+定义、用法和说明：text-decoration 属性规定添加到文本的修饰。
+
+CSS text-decoration 属性的值：
+
+A、none    默认。定义标准的文本。
+
+B、underline    定义文本下的一条线。 
+
+C、overline    定义文本上的一条线。
+
+D、line-through    定义穿过文本下的一条线。
+
+E、blink    定义闪烁的文本。
+
+F、inherit    规定应该从父元素继承 text-decoration 属性的值。
+
+实例：
+
+h1 {text-decoration:overline}
+
+h2 {text-decoration:line-through}
+
+h3 {text-decoration:underline}
+
+h4 {text-decoration:blink}
+
+设置 h1、h2、h3、h4 元素的文本修饰。
+
+注释：
+
+A、任何的版本的 Internet Explorer （包括 IE8）都不支持属性值 "inherit"。
+
+B、IE、Chrome 或 Safari 不支持 "blink" 属性值。
+
+C、修饰的颜色由 "color" 属性设置。
+D、这个属性允许对文本设置某种效果，如加下划线。如果后代元素没有自己的装饰，祖先元素上设置的装饰会“延伸”到后代元素中。不要求用户代理支持 blink。 */
+
+/* 脚步开始 */
+.foot{
+	width: 100%;
+	height: 1.78rem;
+	background: #fff;
+	border-top: .01rem solid #EBEBEB;
+	/* padding-top: .32rem; */
+	padding: 0 2%;
+	position: fixed;
+	left:0;
+	bottom: 0;
+}
+.zongxiang_itme{
+	display: block;
+	width: 10%;
+	padding-bottom: .06rem;
+	margin: .26rem 5% 0 5%;
+	float: left;
+}
+.itme_t{
+	font-family: 'iconfont';
+	color: #fe3f72;
+	text-align: center;
+}
+.itme_t span{
+	font-size: .86rem;
+}
+.itme_b{
+	color: #fe3f72;
+	font-size: .28rem;
+	line-height: .4rem;
+	text-align: center;
+}
+.zongxiang_itme1 span{
+	color: #9a9a9a;
+}
+.zongxiang_itme_logo{
+	width: 1.22rem;
+	margin-right: .34rem;
+	margin-left: .34rem;
+}
+/* .zongxiang_itme_logo img{
+	width: 1rem;
+	height: 100%;
+	margin-left: -5%;
+	margin-right: -5%;
+} */
+/* 脚部结束 */

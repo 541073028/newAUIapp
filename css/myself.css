@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 572326 */
+    src: url('https://at.alicdn.com/t/font_572326_ayrf2unrymdt2o6r.eot');
+    src: url('https://at.alicdn.com/t/font_572326_ayrf2unrymdt2o6r.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_572326_ayrf2unrymdt2o6r.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_572326_ayrf2unrymdt2o6r.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_572326_ayrf2unrymdt2o6r.svg#iconfont') format('svg');
+}
+/*头部开始*/
+.shop_color{
+    background-color: #fe4070;
+    height: 1.44rem;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.shop_car_zhong{
+    display: block;
+    float: left;
+    margin-left: 0.38rem;
+    color: #fff;
+    line-height: 1.44rem;
+    font-size: .48rem;
+}
+.shop_car_you{
+    margin-right: .38rem;
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: .44rem;
+    float: right;
+    font-family: 'iconfont';
+}
+.shop_car_you1{
+    float: right;
+    color:#fff;
+    font-size: .52rem;
+    font-family: 'iconfont';
+}
+/*头部结束*/
+
+/*中部开始*/
+/*.zhongbu{*/
+    /*width: 100%;*/
+    /*background-color: #f3f3f3;*/
+    /*position: fixed;*/
+    /*top: 1.44rem;*/
+    /*left: 0;*/
+/*}*/
+.zhongbu{
+    position: relative;
+    top:1.44rem;
+    left: 0;
+    bottom: 1.78rem;
+}
+.touxiang{
+    background-color: #fff;
+    width: 100%;
+    height: 5.7rem;
+    /*background-image: url('../image/tx1.jpg');*/
+    overflow: hidden;
+}
+.touxiang_top{
+    width: 1.92rem;
+    height: 1.92rem;
+    background-color: #fe4070;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    margin: 0.72rem auto 0;
+    color: #fff;
+    font-weight: bolder;
+    font-size: .6rem;
+    text-align: center;
+    font-family: iconfont;
+    line-height: 1.6rem;
+}
+.touxiang_middle{
+    font-size: .42rem;
+    color: #000;
+    width: 100%;
+    margin:.44rem auto 0;
+    text-align: center;
+}
+.touxiang_bottom{
+    margin-top: .38rem;
+    margin-left: 2.32rem;
+}
+.zhuce_left,.zhuce_right{
+    width: 2.66rem;
+    height: .83rem;
+    text-align: center;
+    font-size: .4rem;
+}
+.zhuce_left1{
+    background-color: #fe4070;
+    border: 0.02rem solid #fff;
+    margin-right: .86rem;
+    color: #fff;
+    padding: 0;
+}
+.zhuce_right1{
+    background-color: #fff;
+    border: 0.02rem solid #fe4070;
+    color: #fe4070;
+    padding: 0;
+}
+.or{
+    width: 100%;
+    height: 2.1rem;
+     background-color: #fff;
+    padding: 0 .52rem;
+    display: flex;
+    justify-content: space-between;
+}
+.or1{
+    /* background-color: red; */
+    width: 100%;
+}
+.or1_top,.or1_bottom{
+    display: block;
+    text-align: center;
+}
+.or1_top{
+    font-family: 'iconfont';
+    font-size: .66rem;
+    color: #909090;
+    margin-top: .4rem;
+    font-weight: 800;
+}
+.or1_bottom{
+    font-size: .36rem;
+    color: #3c3c3c;
+    margin-top: .23rem;
+}
+.zhongbuxia{
+    padding-top: .66rem;
+    border-radius: 1.56rem;
+}
+.order{
+    background-color: #fff;
+    width: 100%;
+    height: 3.62rem;
+    border-bottom: 0.24rem solid #F3F3F3;
+}
+.order_top{
+    width: 10.5rem;
+    height: 1.11rem;
+    float: right;
+    border-bottom: 0.01rem solid #F3F3F3;
+    padding-top: 0.28rem;
+}
+.order_top h1{
+    font-size: 0.48rem;
+    color: #323230;
+    float: left;
+}
+.order_top a{
+    font-size: 0.31rem;
+    color: #757575;
+    float: right;
+    margin-right: 0.3rem;
+}
+/*.or8{*/
+    /*color:;*/
+/*}*/
+
+/*中部开始*/
+
+/* 脚步开始 */
+.foot{
+    width: 100%;
+    height: 1.78rem;
+    background: #fff;
+    border-top: .01rem solid #EBEBEB;
+    /* padding-top: .32rem; */
+    padding: 0 2%;
+    position: fixed;
+    left:0;
+    bottom: 0;
+}
+.zongxiang_itme{
+    width: 10%;
+    padding-bottom: .06rem;
+    margin: .26rem 5% 0 5%;
+    float: left;
+}
+.itme_t{
+    font-family: 'iconfont';
+    color: #fe3f72;
+    text-align: center;
+}
+.itme_t span{
+    font-size: .86rem;
+}
+.itme_b{
+    color: #fe3f72;
+    font-size: .28rem;
+    line-height: .4rem;
+    text-align: center;
+}
+.zongxiang_itme1 span{
+    color: #9a9a9a;
+}
+.zongxiang_itme_logo{
+    width: 1.22rem;
+    margin-right: .34rem;
+    margin-left: .34rem;
+}
+/* .zongxiang_itme_logo img{
+	width: 1rem;
+	height: 100%;
+	margin-left: -5%;
+	margin-right: -5%;
+} */
+.zhongbu_bottom{
+    height: 5.34rem;
+    width: 100%;
+}
+/* 脚部结束 */
